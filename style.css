@@ -46,9 +46,8 @@ body {
 
 .conteudo-principal {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: 48px;
+    margin-left: 115px;
 }
 
 .conteudo-principal-escrito {
@@ -82,25 +81,19 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
+    margin-block-end: 50px;
 }
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
 
-.conteudo-principal-imagem {
-    height: 430px;
-    margin-top: 24px;
-    border-radius: 40px;
-}
-
-
 .rodape {
-    padding: 32px;
     border-top: 0.4px solid #FFF2E7;
 }
 
 .rodape-imagem {
-    height: 48px;
-    margin: 0 auto;
+    margin-top: 16px;
+    margin-left: 15px;
+    height: 80px;
 }
